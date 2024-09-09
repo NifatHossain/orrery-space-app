@@ -3,7 +3,7 @@ import Homepage from "./Homepage";
 
 const Layout = () => {
     return (
-        <div>
+        <div className="roboto">
             <Homepage></Homepage>
         </div>
     );
