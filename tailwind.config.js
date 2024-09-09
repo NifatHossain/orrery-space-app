@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'custom-pattern': "url('./public/full-moon.jpg')",
+        'custom-pattern': "url('/full-moon.jpg')",
       },
     },
   },

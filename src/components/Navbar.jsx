@@ -22,19 +22,19 @@ const Navbar = () => {
                     </div>
                     <ul
                         tabIndex={0}
-                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                        <li><a className="text-white font-semibold">Item 1</a></li>
-                        <li><a className="text-white font-semibold">Item 2</a></li>
-                        <li><a className="text-white font-semibold">Item 3</a></li>
+                        className="menu menu-sm dropdown-content bg-black rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        <li><a className="text-white font-semibold">Live view</a></li>
+                        <li><a className="text-white font-semibold">Planets</a></li>
+                        <li><a className="text-white font-semibold">Satellites</a></li>
                     </ul>
                     </div>
                     <a className="btn btn-ghost text-xl text-white">AstroVibe</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
-                    <li><a className="text-white font-semibold">Item 1</a></li>
-                    <li><a className="text-white font-semibold">Item 2</a></li>
-                    <li><a className="text-white font-semibold">Item 3</a></li>
+                    <li><a className="text-white font-semibold">Live view</a></li>
+                    <li><a className="text-white font-semibold">Planets</a></li>
+                    <li><a className="text-white font-semibold">Satellites</a></li>
                     </ul>
                 </div>
                 <div className="navbar-end">

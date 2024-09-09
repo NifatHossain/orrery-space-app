@@ -8,24 +8,25 @@ const Homepage = () => {
             <Navbar className='absolute'></Navbar>
             <div className="w-full h-[600px] flex justify-around items-center bg-custom-pattern bg-center bg-cover bg-no-repeat">
                 <div>
-                    <p className="text-3xl text-white">EXPLORE <br /> <span className="font-semibold my-6">THE UNIVERSE</span><br /> <span className="text-base my-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br /> Voluptatibus, reprehenderit ratione. Voluptatum numquam repellat labore voluptas eum <br /> praesentium? Possimus, ipsa?</span><br /><button className="p-2 border-2 my-6">Get Started</button></p>
+                    <p className="text-3xl text-white">EXPLORE <br /> <span className="font-semibold my-6">THE UNIVERSE</span><br /> <span className="text-base my-6">Explore the cosmos with real-time data on planets, asteroids, and satellites.<br />Discover space facts and gain insights into the <br />wonders of the universe, all in one place!</span><br /><button className="p-2 font-medium rounded-md my-6 bg-orange-500">Get Started</button></p>
+                    
                 </div>
                 <div className="space-y-5">
                     <div>
-                        <p className="text-2xl font-semibold text-white">Constulation</p>
-                        <p className="text-orange-500">Lorem ipsum dolor sit amet consectetur</p>
+                        <p className="text-2xl font-semibold text-white">Constellations</p>
+                        <p className="text-orange-500">Star patterns shaping celestial stories</p>
                     </div>
                     <div>
                         <p className="text-2xl font-semibold text-white">Planets</p>
-                        <p className="text-orange-500">Lorem ipsum dolor sit amet consectetur</p>
+                        <p className="text-orange-500">Celestial bodies orbiting stars in space.</p>
                     </div>
                     <div>
-                        <p className="text-2xl font-semibold text-white">Satelites</p>
-                        <p className="text-orange-500">Lorem ipsum dolor sit amet consectetur</p>
+                        <p className="text-2xl font-semibold text-white">Satellites</p>
+                        <p className="text-orange-500">Man-made or natural objects orbiting planets</p>
                     </div>
                     <div>
                         <p className="text-2xl font-semibold text-white">Asteroids</p>
-                        <p className="text-orange-500">Lorem ipsum dolor sit amet consectetur</p>
+                        <p className="text-orange-500">Rocky remnants from the early solar system</p>
                     </div>
                 </div>
             </div>
