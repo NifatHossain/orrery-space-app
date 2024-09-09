@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 const Homepage = () => {
     return (
         <div>
-            <div className='relative bg-[url(https://cdn.eso.org/images/screen/eso0932a.jpg)]'>
+            <div className='relative '>
             <Navbar className='absolute'></Navbar>
             <div className="w-full h-[600px] flex justify-around items-center bg-custom-pattern bg-center bg-cover bg-no-repeat">
                 <div>
@@ -16,15 +16,15 @@ const Homepage = () => {
                         <p className="text-orange-500">Lorem ipsum dolor sit amet consectetur</p>
                     </div>
                     <div>
-                        <p className="text-2xl font-semibold text-white">Constulation</p>
+                        <p className="text-2xl font-semibold text-white">Planets</p>
                         <p className="text-orange-500">Lorem ipsum dolor sit amet consectetur</p>
                     </div>
                     <div>
-                        <p className="text-2xl font-semibold text-white">Constulation</p>
+                        <p className="text-2xl font-semibold text-white">Satelites</p>
                         <p className="text-orange-500">Lorem ipsum dolor sit amet consectetur</p>
                     </div>
                     <div>
-                        <p className="text-2xl font-semibold text-white">Constulation</p>
+                        <p className="text-2xl font-semibold text-white">Asteroids</p>
                         <p className="text-orange-500">Lorem ipsum dolor sit amet consectetur</p>
                     </div>
                 </div>
@@ -33,7 +33,7 @@ const Homepage = () => {
                 <p className="text-white text-3xl font-semibold text-center">Explore Live Positions</p>
             </div>
             <div className="flex justify-center">
-                <iframe className="h-[700px] w-[95%]" src="https://eyes.nasa.gov/apps/solar-system/#/home?shareButton=false&locked=true&hideExternalLinks=true" allowfullscreen ></iframe>
+            <iframe className="h-[700px] w-[95%]" src="https://eyes.nasa.gov/apps/solar-system/#/home?featured=false&shareButton=false&menu=false&collapseSettingsOptions=true" allowfullscreen ></iframe>
             </div>
             </div>
         </div>
