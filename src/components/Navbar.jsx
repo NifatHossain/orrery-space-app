@@ -26,6 +26,7 @@ const Navbar = () => {
                         <li><a className="text-white font-semibold">Live view</a></li>
                         <li><a className="text-white font-semibold">Planets</a></li>
                         <li><a className="text-white font-semibold">Satellites</a></li>
+                        <li><a className="text-white font-semibold">Change language</a></li>
                     </ul>
                     </div>
                     <a className="btn btn-ghost text-xl text-white">AstroVibe</a>
@@ -35,6 +36,7 @@ const Navbar = () => {
                     <li><a className="text-white font-semibold">Live view</a></li>
                     <li><a className="text-white font-semibold">Planets</a></li>
                     <li><a className="text-white font-semibold">Satellites</a></li>
+                    <li><a className="text-white font-semibold">Change language</a></li>
                     </ul>
                 </div>
                 <div className="navbar-end">

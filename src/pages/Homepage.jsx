@@ -8,7 +8,7 @@ const Homepage = () => {
             <Navbar className='absolute'></Navbar>
             <div className="w-full h-[600px] flex justify-around items-center bg-custom-pattern bg-center bg-cover bg-no-repeat">
                 <div>
-                    <p className="text-3xl text-white">EXPLORE <br /> <span className="font-semibold my-6">THE UNIVERSE</span><br /> <span className="text-base my-6">Explore the cosmos with real-time data on planets, asteroids, and satellites.<br />Discover space facts and gain insights into the <br />wonders of the universe, all in one place!</span><br /><button className="p-2 font-medium rounded-md my-6 bg-orange-500">Get Started</button></p>
+                    <p className="text-3xl text-white">EXPLORE <br /> <span className="font-semibold my-6">THE UNIVERSE</span><br /> <span className="text-base my-6">Explore the cosmos with real-time data on planets, asteroids, and satellites.<br />Discover space facts and gain insights into the <br />wonders of the universe, all in one place!</span><br /><button className="p-2 font-medium rounded-md my-6 bg-orange-500 text-base md:text-xl">Get Started</button></p>
                     
                 </div>
                 <div className="space-y-5">
